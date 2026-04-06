@@ -8,7 +8,7 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║                               "Solving what can't be solved is the way to go.."                            ║
+║                                  "Solving unsolvable is the way to go"                             ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
@@ -45,15 +45,19 @@
 const kushagra = {
   role      : "Backend Systems Engineer",
   university: "Sharda University — CSE",
+  cgpa      : "9.5 / 10.0 ⭐",
+  location  : "Lakhimpur-Kheri, UP 🇮🇳",
+
   currently : [
     "Building distributed systems",
-    "Mastering system design"
+    "Mastering system design",
+    "Open to backend internships",
   ],
 
   architecture: ["Event-Driven", "WebSocket", "REST"],
   obsessions  : ["Low latency", "High availability", "Clean code"],
 
-  funFact: "My side projects have better uptime than most MVPs ⭐",
+  funFact: "My side projects have better uptime than most MVPs 🚀",
 };
 ```
 
@@ -122,6 +126,22 @@ const kushagra = {
 </td>
 <td width="50%" valign="top">
 
+### 🏆 Achievements
+
+```
+🥇  1st Prize — Sustainable Avinya Hackathon 2026
+    Competing against cross-disciplinary teams
+
+📊  LeetCode — 100+ Problems Solved
+    Easy · Medium · Hard | Consistent streaks
+
+⚔️  Codeforces — Max Rating 1281 (Pupil)
+    100+ problems solved
+
+🎓  Java DSA + LeetCode Exercises (Certified)
+🎓  Java Masterclass 2025 — 130+ Hours (Certified)
+
+📈  CGPA: 9.5/10 @ Sharda University
 ```
 
 </td>
@@ -199,10 +219,14 @@ const kushagra = {
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
 │   I build backends that don't just work —                       │
-│   they work at scale, under failure, under load.                │
+│   they work at scale, under failure, under load.               │
 │                                                                 │
-│   I'm building systems with real architectural decisions:       |
-|   fault tolerance, eventual consistency, low latency.           │
+│   While others clone todo apps, I'm building systems           │
+│   with real architectural decisions:                           │
+│   fault tolerance, eventual consistency, low latency.          │
+│                                                                 │
+│   I'm not looking for a place to learn the basics.            │
+│   I'm looking for problems hard enough to be worth solving.    │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
