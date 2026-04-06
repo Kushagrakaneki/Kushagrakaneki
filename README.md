@@ -103,36 +103,36 @@ _I pick up a problem, go deep, and ship it right._
 
 ---
 
-### ⚡ CodeFlow &nbsp;·&nbsp; *Real-Time Collaborative Code Editor*
+### ⚡*KamiDB  ·  Distributed Consensus Database Engine*
 
-> **Multi-user code editing with fault-tolerant state synchronization**
+> **Fault-tolerant, multi-node cluster with zero-downtime architecture**
 
 <table>
 <tr>
 <td width="50%">
 
 **What it does**
-- Supports **multi-user rooms** with live collaborative editing
-- Achieves **sub-100ms message propagation** across all connected clients
-- Maintains **ordered message delivery** even during transient network failures
-- Renders remote document mutations in real-time inside Monaco Editor
+- Supports a self-healing cluster that automatically handles leader elections and hardware failures
+- Achieves zero-downtime data ingestion by dynamically routing around dead nodes and network partitions
+- Maintains absolute data consistency across all connected servers using the Raft consensus algorithm
+- Visualizes real-time cluster telemetry and log replication via a dedicated monitoring dashboard
 
 </td>
 <td width="50%">
 
 **How it's built**
-- WebSocket-based event-driven networking layer via **Socket.IO**
-- **Client-side operation buffering** ensures eventual consistency under partitions
-- Bidirectional data binding between the **Monaco Editor** DOM and WebSocket transport
-- Stateless server design — rooms managed entirely through socket events
+- Microsecond-latency networking layer using strictly typed Protocol Buffers (proto3) over gRPC
+- Custom Log-Structured Merge-Tree (LSM-Tree) storage engine with an append-only Write-Ahead Log (WAL)
+- Deterministic state machine replication ensuring Follower nodes perfectly mirror the Leader's physical disk
+- Decoupled architecture featuring an internal gRPC consensus network and an external Javalin HTTP REST bridge
 
 </td>
 </tr>
 </table>
 
-**Stack:** `Node.js` `Socket.IO` `Monaco Editor` `Express` `JavaScript`
+**Stack:** `Java 21+` `Raft` `gRPC` `Protocol Buffers` `Javalin` `React`
 
-[![View on GitHub](https://img.shields.io/badge/⭐_View_on_GitHub-CodeFlow-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kushagrakaneki)
+[![View on GitHub](https://img.shields.io/badge/⭐_View_on_GitHub-KamiDB-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kushagrakaneki/Kamidb---Distributed-Consensus-Database-Engine-in-Java)
 
 ---
 
