@@ -45,19 +45,15 @@
 const kushagra = {
   role      : "Backend Systems Engineer",
   university: "Sharda University — CSE",
-  cgpa      : "9.5 / 10.0 ⭐",
-  location  : "Lakhimpur-Kheri, UP 🇮🇳",
 
   currently : [
     "Building distributed systems",
     "Mastering system design",
-    "Open to backend internships",
   ],
 
   architecture: ["Event-Driven", "WebSocket", "REST"],
   obsessions  : ["Low latency", "High availability", "Clean code"],
 
-  funFact: "My side projects have better uptime than most MVPs 🚀",
 };
 ```
 
@@ -126,24 +122,6 @@ const kushagra = {
 </td>
 <td width="50%" valign="top">
 
-### 🏆 Achievements
-
-```
-🥇  1st Prize — Sustainable Avinya Hackathon 2026
-    Competing against cross-disciplinary teams
-
-📊  LeetCode — 100+ Problems Solved
-    Easy · Medium · Hard | Consistent streaks
-
-⚔️  Codeforces — Max Rating 1281 (Pupil)
-    100+ problems solved
-
-🎓  Java DSA + LeetCode Exercises (Certified)
-🎓  Java Masterclass 2025 — 130+ Hours (Certified)
-
-📈  CGPA: 9.5/10 @ Sharda University
-```
-
 </td>
 </tr>
 </table>
@@ -196,44 +174,7 @@ const kushagra = {
 
 ---
 
-## `> git log --stats`
 
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Kushagrakaneki&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kushagrakaneki&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9" />
-
-<br/>
-
-<img width="70%" src="https://nirzak-streak-stats.vercel.app/?user=Kushagrakaneki&theme=tokyonight&hide_border=true&background=0d1117&stroke=a78bfa&ring=a78bfa&fire=f97316&currStreakLabel=a78bfa&sideLabels=c9d1d9&dates=6b7280" />
-
-</div>
-
----
-
-## `> cat philosophy.md`
-
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   I build backends that don't just work —                       │
-│   they work at scale, under failure, under load.               │
-│                                                                 │
-│   While others clone todo apps, I'm building systems           │
-│   with real architectural decisions:                           │
-│   fault tolerance, eventual consistency, low latency.          │
-│                                                                 │
-│   I'm not looking for a place to learn the basics.            │
-│   I'm looking for problems hard enough to be worth solving.    │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
 
 <div align="center">
 
